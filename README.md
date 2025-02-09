@@ -15,7 +15,7 @@ This repository contains the source code for a take-home assignment for Fetch Re
 ## Directory Structure
 
 ```plaintext
-receipt_processor/
+Receipt-Processor/
 │
 ├── Dockerfile             # Docker configuration for containerization
 ├── main.py                # Main application file with FastAPI setup
@@ -31,7 +31,7 @@ receipt_processor/
 
 ## How to run the Receipt API server using Docker
 
-1. Within the `receipt_processor` directory build the Docker image by running `docker build -t receipt-processor-api .`
+1. Within the `Receipt-Processor` directory build the Docker image by running `docker build -t receipt-processor-api .`
 
 2. Confirm that a Docker image was created by running this command from the same directory `docker image ls`
 
