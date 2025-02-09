@@ -42,14 +42,15 @@ receipt-processor-api   latest  27a893d09711  6 seconds ago   851MB
 ```
 
 4. Run the docker image using this command from the same directory `docker run -d -p 8000:8000 receipt-processor-api`
-This will start the Docker image connecting the Docker container's port 8000 to your machine's 8000 port, this also allows the image to run in the background freeing up your console instead of forcing you to open a new one.
-You do not need to specify the host here, although if you prefer to specify localhost or 127.0.0.1 that will still work.
+
+    This will start the Docker image connecting the Docker container's port 8000 to your machine's 8000 port, this also allows the image to run in the background freeing up your console instead of forcing you to open a new one.
+    You do not need to specify the host here, although if you prefer to specify localhost or 127.0.0.1 that will still work.
 
 5. Verify that you see the Docker container running in the Docker Desktop app
 
 Docker Notes:
 
-    This assumes you already have docker installed and know how to use it/know the basics around Docker
+This assumes you already have docker installed and know how to use it/know the basics around Docker
 
 ## How to run the Receipt API server without Docker
 
